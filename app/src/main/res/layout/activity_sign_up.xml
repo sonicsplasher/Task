@@ -28,6 +28,18 @@ android:text="@string/sign_up"
 android:textAppearance="@style/sign_up"
 android:gravity="top"
  />
+ <View
+android:id="@+id/rectangle_1"
+android:layout_width="310dp"
+android:layout_height="432dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="28dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="104dp"
+android:background="@drawable/rectangle_1"
+android:elevation="10dp"
+ />
+
 
 
 
