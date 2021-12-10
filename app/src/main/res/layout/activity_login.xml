@@ -93,4 +93,28 @@ android:text="@string/password"
 android:textAppearance="@style/password"
 android:gravity="top"
  />
+ <TextView
+android:id="@+id/sign_up"
+android:layout_width="83dp"
+android:layout_height="12dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="212dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="443dp"
+android:text="@string/sign_up"
+android:textAppearance="@style/sign_up"
+android:gravity="top"
+ />
+ <TextView
+android:id="@+id/sign_in"
+android:layout_width="105dp"
+android:layout_height="30dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="139dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="370dp"
+android:text="@string/sign_in"
+android:textAppearance="@style/sign_in"
+android:gravity="top"
+ />
 </androidx.constraintlayout.widget.ConstraintLayout>
