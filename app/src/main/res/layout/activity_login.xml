@@ -68,9 +68,9 @@
      android:layout_alignParentTop="true"
      android:layout_marginLeft="68dp"
      android:layout_marginTop="240dp"
-     android:text=@string/sign_in"
- android:textAppearance="@style/login_id_ro"
- android:gravity="top"
+     android:text="@string/sign_in"
+     android:textAppearance="@style/login_id_ro"
+     android:gravity="top"
  />
 
  <TextView
@@ -98,7 +98,7 @@
      android:textAppearance="@style/sign_up" />
 
  <TextView
-     android:id="@+id/sign_in"
+     android:id="@+id/sign_inBox"
      android:layout_width="105dp"
      android:layout_height="30dp"
      android:layout_alignParentLeft="true"
