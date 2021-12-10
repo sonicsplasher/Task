@@ -15,6 +15,17 @@ android:layout_alignParentTop="true"
 android:layout_marginTop="-40dp"
 android:background="@drawable/rectangle_9"
  />
+ <View
+android:id="@+id/rectangle_1"
+android:layout_width="273dp"
+android:layout_height="334dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="46dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="129dp"
+android:background="@drawable/rectangle_1"
+android:elevation="10dp"
+ />
 
 
 
