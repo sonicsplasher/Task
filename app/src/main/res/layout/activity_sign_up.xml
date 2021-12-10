@@ -114,13 +114,64 @@ android:text="@string/sign_in"
 android:textAppearance="@style/sign_in"
 android:gravity="top"
  />
-
-
-
-
-
-
-
-
-
+<TextView
+android:id="@+id/roll_number"
+android:layout_width="215dp"
+android:layout_height="36dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="72dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="163dp"
+android:text="@string/roll_number"
+android:textAppearance="@style/roll_number"
+android:gravity="top"
+ />
+ <TextView
+android:id="@+id/mail_id"
+android:layout_width="71dp"
+android:layout_height="29dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="74dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="232dp"
+android:text="@string/mail_id"
+android:textAppearance="@style/mail_id"
+android:gravity="top"
+ />
+<TextView
+android:id="@+id/mobile_numb"
+android:layout_width="158dp"
+android:layout_height="29dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="72dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="303dp"
+android:text="@string/mobile_numb"
+android:textAppearance="@style/mobile_numb"
+android:gravity="top"
+ />
+ <TextView
+android:id="@+id/password"
+android:layout_width="215dp"
+android:layout_height="36dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="72dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="365dp"
+android:text="@string/password"
+android:textAppearance="@style/password"
+android:gravity="top"
+ />
+ <TextView
+android:id="@+id/sign_up"
+android:layout_width="105dp"
+android:layout_height="30dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="130dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="455dp"
+android:text="@string/sign_up"
+android:textAppearance="@style/sign_up"
+android:gravity="top"
+ />
 </androidx.constraintlayout.widget.ConstraintLayout>
