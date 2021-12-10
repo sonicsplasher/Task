@@ -1,31 +1,18 @@
 package com.devjam.task
-package com.google.firebase.quickstart.auth.kotlin
 
 import android.net.Uri
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.facebook.AccessToken
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.firebase.FirebaseException
-import com.google.firebase.auth.ActionCodeSettings
-import com.google.firebase.auth.AuthCredential
-import com.google.firebase.auth.EmailAuthProvider
-import com.google.firebase.auth.FacebookAuthProvider
-import com.google.firebase.auth.FirebaseUser
-import com.google.firebase.auth.GithubAuthProvider
-import com.google.firebase.auth.GoogleAuthProvider
-import com.google.firebase.auth.PhoneAuthCredential
-import com.google.firebase.auth.PhoneAuthOptions
-import com.google.firebase.auth.PhoneAuthProvider
-import com.google.firebase.auth.PlayGamesAuthProvider
+import com.google.firebase.auth.*
 import com.google.firebase.auth.ktx.actionCodeSettings
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.auth.ktx.userProfileChangeRequest
 import com.google.firebase.ktx.Firebase
-import com.google.firebase.quickstart.auth.R
 import java.util.concurrent.TimeUnit
 
 /**
@@ -399,12 +386,6 @@ abstract class MainActivity : AppCompatActivity() {
         // [END auth_google_cred]
     }
 
-    private fun getFbCredentials() {
-        val token = AccessToken.getCurrentAccessToken()
-        // [START auth_fb_cred]
-        val credential = FacebookAuthProvider.getCredential(token.token)
-        // [END auth_fb_cred]
-    }
 
     private fun getEmailCredentials() {
         val email = ""
@@ -494,13 +475,7 @@ abstract class MainActivity : AppCompatActivity() {
         // [END auth_test_phone_auto]
     }
 
-    private fun gamesMakeGoogleSignInOptions() {
-        // [START games_google_signin_options]
-        val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_GAMES_SIGN_IN)
-                .requestServerAuthCode(getString(R.string.default_web_client_id))
-                .build()
-        // [END games_google_signin_options]
-    }
+
 
     // [START games_auth_with_firebase]
     // Call this both in the silent sign-in task's OnCompleteListener and in the
