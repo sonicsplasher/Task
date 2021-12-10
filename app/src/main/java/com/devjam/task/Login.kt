@@ -1,8 +1,10 @@
 package com.devjam.task
-package com.google.firebase.quickstart.auth.kotlin
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 
 class Login : AppCompatActivity() {
     private lateinit var auth: FirebaseAuth
@@ -16,7 +18,7 @@ class Login : AppCompatActivity() {
         // Check if user is signed in (non-null) and update UI accordingly.
         val currentUser = auth.currentUser
         if(currentUser != null){
-            reload();
+
         }
     }
-}`
+}

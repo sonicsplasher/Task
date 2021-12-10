@@ -1,5 +1,4 @@
 package com.devjam.task
-package com.google.firebase.quickstart.auth.kotlin
 
 import android.app.Activity
 import android.os.Bundle
