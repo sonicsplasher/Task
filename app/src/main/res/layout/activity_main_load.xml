@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/android_2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/android_2"
+    android:clipToOutline="true"
+    android:elevation="4dp"
+>
+
+    <TextView
+        android:id="@+id/task"
+        android:layout_width="197dp"
+        android:layout_height="84dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="103dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="452dp"
+        android:text="@string/app_name"
+        android:textAppearance="@style/task.xml"
+        android:gravity="top"
+        />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
