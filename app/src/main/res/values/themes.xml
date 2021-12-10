@@ -14,7 +14,7 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="task">
+    <style name="LoadScreen">
 
         <item name="android:textSize">
             64sp
