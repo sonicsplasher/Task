@@ -11,19 +11,10 @@
      android:layout_height="28dp"
      android:layout_alignParentStart="true"
      android:layout_alignParentTop="true"
-     android:layout_marginTop="-"
+     android:layout_marginTop="-16dp"
      android:background="@drawable/rectangle_9"
      />
- <View
-     android:id="@+id/rectangle_1"
-     android:layout_width="273dp"
-     android:layout_height="334dp"
-     android:layout_alignParentStart="true"
-     android:layout_alignParentTop="true"
-     android:layout_marginStart="46dp"
-     android:layout_marginTop="129dp"
-     android:background="@drawable/rectangle_1"
-     android:elevation="10dp" />
+
 
  <View
      android:id="@+id/rectangle_3"
@@ -124,7 +115,6 @@ android:gravity="top"
      android:layout_marginTop="443dp"
      android:text="@string/dont_have_a"
      android:textAppearance="@style/dont_have_a"
-     android:gravity="top"
       />
       <View
       android:id="@+id/ellipse_1"
@@ -148,13 +138,12 @@ android:gravity="top"
      android:background="@drawable/ellipse_2" />
 
  <View
-     android:id="@+id/ellipse_3"
      android:layout_width="166dp"
      android:layout_height="129dp"
      android:layout_alignParentStart="true"
-     android:layout_alignParentTop="true"
+     android:layout_alignParentBottom="true"
      android:layout_marginStart="8dp"
-     android:layout_marginTop="514dp"
+     android:layout_marginBottom="-26dp"
      android:background="@drawable/ellipse_3" />
 
  <View
@@ -162,8 +151,8 @@ android:gravity="top"
      android:layout_width="166dp"
      android:layout_height="167dp"
      android:layout_alignParentStart="true"
-     android:layout_alignParentTop="true"
-     android:layout_marginTop="525dp"
+     android:layout_alignParentBottom="true"
+     android:layout_marginBottom="-76dp"
      android:background="@drawable/ellipse_4" />
 
  <TextView
@@ -176,5 +165,17 @@ android:gravity="top"
      android:layout_marginTop="370dp"
      android:gravity="top"
      android:text="@string/sign_in"
-     android:textAppearance="@style/sign_in2" />
+     android:textAppearance="@style/sign_in2"
+     />
+
+ <View
+     android:id="@+id/rectangle_1"
+     android:layout_width="273dp"
+     android:layout_height="334dp"
+     android:layout_alignParentStart="true"
+     android:layout_alignParentTop="true"
+     android:layout_marginStart="46dp"
+     android:layout_marginTop="131dp"
+     android:background="@drawable/rectangle_1"
+     android:elevation="-1dp" />
 </RelativeLayout>
