@@ -23,7 +23,7 @@
         <item name="android:textColor">
             #333354
         </item>
-        <item name="fontFamily"
+        <item name="fontFamily"></item>
 
     </style>
 
