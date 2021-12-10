@@ -68,11 +68,22 @@
      android:layout_alignParentTop="true"
      android:layout_marginLeft="68dp"
      android:layout_marginTop="240dp"
-     android:text=@string/sign_in"
+     android:text="@string/sign_in"
  android:textAppearance="@style/login_id_ro"
  android:gravity="top"
  />
-
+<TextView
+android:id="@+id/forgot_pass"
+android:layout_width="129dp"
+android:layout_height="13dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="125dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="420dp"
+android:text="@string/forgot_pass"
+android:textAppearance="@style/forgot_pass"
+android:gravity="top"
+ />
  <TextView
      android:id="@+id/password"
      android:layout_width="215dp"
@@ -96,6 +107,18 @@
      android:gravity="top"
      android:text="@string/sign_up"
      android:textAppearance="@style/sign_up" />
+     <TextView
+     android:id="@+id/dont_have_a"
+     android:layout_width="136dp"
+     android:layout_height="9dp"
+     android:layout_alignParentLeft="true"
+     android:layout_marginLeft="75dp"
+     android:layout_alignParentTop="true"
+     android:layout_marginTop="443dp"
+     android:text="@string/dont_have_a"
+     android:textAppearance="@style/dont_have_a"
+     android:gravity="top"
+      />
 
  <TextView
      android:id="@+id/sign_in"
