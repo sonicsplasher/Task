@@ -22,4 +22,8 @@ Forgot password ?
     Dont have an account ?  
     </string>
     <string name="designed_an">designed and developed by\n           team teal blues</string>
+    <string name="already_hav" />
+    <string name="roll_number" />
+    <string name="mail_id" />
+    <string name="mobile_numb" />
 </resources>
