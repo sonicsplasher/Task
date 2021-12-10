@@ -15,8 +15,6 @@ android:layout_alignParentTop="true"
 android:layout_marginTop="-40dp"
 android:background="@drawable/rectangle_9"
  />
-<viewportWidth></>
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
