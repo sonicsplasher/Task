@@ -55,4 +55,18 @@
         android:gravity="top"
         />
 
+    <TextView
+        android:id="@+id/designed_an"
+        android:layout_width="247dp"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="67dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="536dp"
+        android:text="@string/designed_an"
+        android:textAppearance="@style/designed_an"
+        android:gravity="top"
+        />
+
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
