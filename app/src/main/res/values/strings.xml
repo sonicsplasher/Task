@@ -13,4 +13,12 @@ password
 <string name="sign_up">
 SIGN UP
 </string>
+<string name="forgot_pass">
+
+Forgot password ?
+</string>
+<string name="dont_have_a">
+
+    Dont have an account ?  
+    </string>
     </resources>
