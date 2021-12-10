@@ -24,7 +24,7 @@ android:width="310dp"
 android:height="432dp"
 android:viewportWidth="310"
 android:viewportHeight="432"
- >
+ ></vector>
 
 </group>
 
