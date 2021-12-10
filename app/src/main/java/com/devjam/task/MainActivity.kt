@@ -1,4 +1,5 @@
 package com.devjam.task
+package com.google.firebase.quickstart.auth.kotlin
 
 import android.net.Uri
 import android.os.Bundle
@@ -31,6 +32,8 @@ import java.util.concurrent.TimeUnit
  * Created by harshitdwivedi on 14/03/18.
  */
 abstract class MainActivity : AppCompatActivity() {
+
+    private lateinit var auth: FirebaseAuth
 
     private val TAG = "MainActivity"
 
