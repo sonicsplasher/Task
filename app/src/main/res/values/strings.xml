@@ -3,11 +3,9 @@
     <string name="task">TASK</string>
 
     <string name="sign_in">SIGN IN</string>
-    <string name="login_id_ro">
-login id/roll number
-</string>
-    <string name="password">
+    <string name="Username">Username</string>
 
+    <string name="password">
 password
 </string>
     <string name="sign_up">
