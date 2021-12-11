@@ -10,15 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Task">
         <activity
-            android:name=".MainLoad"
-            android:exported="false" />
-        <activity
-            android:name=".SignUp"
-            android:exported="false" />
-        <activity
-            android:name=".Login"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -27,6 +18,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainLoad"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
     </application>
 
 </manifest>

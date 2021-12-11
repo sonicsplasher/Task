@@ -2,22 +2,22 @@
     <string name="app_name">Task</string>
     <string name="task">TASK</string>
 
-<string name="sign_in">SIGN IN</string>
-<string name="login_id_ro">
+    <string name="sign_in">SIGN IN</string>
+    <string name="login_id_ro">
 login id/roll number
 </string>
-<string name="password">
+    <string name="password">
 
 password
 </string>
-<string name="sign_up">
+    <string name="sign_up">
 SIGN UP
 </string>
-<string name="forgot_pass">
+    <string name="forgot_pass">
 
 Forgot password ?
 </string>
-<string name="dont_have_a">
+    <string name="dont_have_a">
 
     Dont have an account ?  
     </string>

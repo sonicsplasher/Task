@@ -1,30 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Login">
 
-
  <View
-     android:id="@+id/rectangle_1"
-     android:layout_width="273dp"
-     android:layout_height="334dp"
-     android:layout_alignParentLeft="true"
+     android:id="@+id/rectangle_9"
+     android:layout_width="360dp"
+     android:layout_height="28dp"
+     android:layout_alignParentStart="true"
      android:layout_alignParentTop="true"
-     android:layout_marginLeft="46dp"
-     android:layout_marginTop="129dp"
-     android:background="@drawable/rectangle_1"
-     android:elevation="10dp" />
+     android:layout_marginTop="-16dp"
+     android:background="@drawable/rectangle_9"
+     />
+
 
  <View
      android:id="@+id/rectangle_3"
      android:layout_width="243dp"
      android:layout_height="44dp"
-     android:layout_alignParentLeft="true"
+     android:layout_alignParentStart="true"
      android:layout_alignParentTop="true"
-     android:layout_marginLeft="59dp"
+     android:layout_marginStart="59dp"
      android:layout_marginTop="296dp"
      android:background="@drawable/rectangle_3" />
 
@@ -32,9 +30,9 @@
      android:id="@+id/rectangle_2"
      android:layout_width="243dp"
      android:layout_height="44dp"
-     android:layout_alignParentLeft="true"
+     android:layout_alignParentStart="true"
      android:layout_alignParentTop="true"
-     android:layout_marginLeft="58.5dp"
+     android:layout_marginStart="58.5dp"
      android:layout_marginTop="232.5dp"
      android:background="@drawable/rectangle_2" />
 
@@ -42,9 +40,9 @@
      android:id="@+id/rectangle_4"
      android:layout_width="238dp"
      android:layout_height="49dp"
-     android:layout_alignParentLeft="true"
+     android:layout_alignParentStart="true"
      android:layout_alignParentTop="true"
-     android:layout_marginLeft="64dp"
+     android:layout_marginStart="64dp"
      android:layout_marginTop="360dp"
      android:background="@drawable/rectangle_4" />
 
@@ -52,32 +50,39 @@
      android:id="@+id/sign_in1"
      android:layout_width="142dp"
      android:layout_height="43dp"
-     android:layout_alignParentLeft="true"
+     android:layout_alignParentStart="true"
      android:layout_alignParentTop="true"
-     android:layout_marginLeft="54dp"
+     android:layout_marginStart="54dp"
      android:layout_marginTop="149dp"
      android:gravity="top"
      android:text="@string/sign_in"
+     android:fontFamily="ReadexPro-VariableFont_wghtz"
      android:textAppearance="@style/sign_in1" />
 
  <TextView
      android:id="@+id/login_id_ro"
      android:layout_width="211dp"
      android:layout_height="31dp"
-     android:layout_alignParentLeft="true"
+     android:layout_alignParentStart="true"
      android:layout_alignParentTop="true"
-     android:layout_marginLeft="68dp"
+     android:layout_marginStart="68dp"
      android:layout_marginTop="240dp"
      android:text="@string/sign_in"
  android:textAppearance="@style/login_id_ro"
  android:gravity="top"
  />
-<TextView
+
+ <Button
+     android:layout_width="@+id/sign_in2"
+     android:layout_height="20dp"
+     android:layout_marginTop="100dp" />
+
+ <TextView
 android:id="@+id/forgot_pass"
 android:layout_width="129dp"
 android:layout_height="13dp"
-android:layout_alignParentLeft="true"
-android:layout_marginLeft="125dp"
+android:layout_alignParentStart="true"
+android:layout_marginStart="125dp"
 android:layout_alignParentTop="true"
 android:layout_marginTop="420dp"
 android:text="@string/forgot_pass"
@@ -88,9 +93,9 @@ android:gravity="top"
      android:id="@+id/password"
      android:layout_width="215dp"
      android:layout_height="36dp"
-     android:layout_alignParentLeft="true"
+     android:layout_alignParentStart="true"
      android:layout_alignParentTop="true"
-     android:layout_marginLeft="72dp"
+     android:layout_marginStart="72dp"
      android:layout_marginTop="298dp"
      android:gravity="top"
      android:text="@string/password"
@@ -100,9 +105,9 @@ android:gravity="top"
      android:id="@+id/sign_up"
      android:layout_width="83dp"
      android:layout_height="12dp"
-     android:layout_alignParentLeft="true"
+     android:layout_alignParentStart="true"
      android:layout_alignParentTop="true"
-     android:layout_marginLeft="212dp"
+     android:layout_marginStart="212dp"
      android:layout_marginTop="443dp"
      android:gravity="top"
      android:text="@string/sign_up"
@@ -111,63 +116,73 @@ android:gravity="top"
      android:id="@+id/dont_have_a"
      android:layout_width="136dp"
      android:layout_height="9dp"
-     android:layout_alignParentLeft="true"
-     android:layout_marginLeft="75dp"
+     android:layout_alignParentStart="true"
+     android:layout_marginStart="75dp"
      android:layout_alignParentTop="true"
      android:layout_marginTop="443dp"
      android:text="@string/dont_have_a"
      android:textAppearance="@style/dont_have_a"
-     android:gravity="top"
       />
       <View
       android:id="@+id/ellipse_1"
       android:layout_width="167.87dp"
       android:layout_height="158dp"
-      android:layout_alignParentLeft="true"
-      android:layout_marginLeft="235dp"
+      android:layout_alignParentStart="true"
+      android:layout_marginStart="235dp"
       android:layout_alignParentTop="true"
       android:layout_marginTop="-54dp"
       android:background="@drawable/ellipse_1"
        />
-       <View
-       android:id="@+id/ellipse_2"
-       android:layout_width="181.76dp"
-       android:layout_height="141.9dp"
-       android:layout_alignParentLeft="true"
-       android:layout_marginLeft="245dp"
-       android:layout_alignParentTop="true"
-       android:layout_marginTop="-55dp"
-       android:background="@drawable/ellipse_2"
-        />    
-        <View
-android:id="@+id/ellipse_3"
-android:layout_width="166dp"
-android:layout_height="129dp"
-android:layout_alignParentLeft="true"
-android:layout_marginLeft="8dp"
-android:layout_alignParentTop="true"
-android:layout_marginTop="514dp"
-android:background="@drawable/ellipse_3"
- />  
+
  <View
-android:id="@+id/ellipse_4"
-android:layout_width="166dp"
-android:layout_height="167dp"
-android:layout_alignParentLeft="true"
-android:layout_alignParentTop="true"
-android:layout_marginTop="525dp"
-android:background="@drawable/ellipse_4"
- />
+     android:id="@+id/ellipse_2"
+     android:layout_width="181.76dp"
+     android:layout_height="141.9dp"
+     android:layout_alignParentStart="true"
+     android:layout_alignParentTop="true"
+     android:layout_marginStart="245dp"
+     android:layout_marginTop="-55dp"
+     android:background="@drawable/ellipse_2" />
+
+ <View
+     android:layout_width="166dp"
+     android:layout_height="129dp"
+     android:layout_alignParentStart="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginStart="8dp"
+     android:layout_marginBottom="-26dp"
+     android:background="@drawable/ellipse_3" />
+
+ <View
+     android:id="@+id/ellipse_4"
+     android:layout_width="166dp"
+     android:layout_height="167dp"
+     android:layout_alignParentStart="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginBottom="-76dp"
+     android:background="@drawable/ellipse_4" />
 
  <TextView
      android:id="@+id/sign_in2"
      android:layout_width="105dp"
      android:layout_height="30dp"
-     android:layout_alignParentLeft="true"
+     android:layout_alignParentStart="true"
      android:layout_alignParentTop="true"
-     android:layout_marginLeft="139dp"
+     android:layout_marginStart="139dp"
      android:layout_marginTop="370dp"
      android:gravity="top"
      android:text="@string/sign_in"
-     android:textAppearance="@style/sign_in2" />
+     android:textAppearance="@style/sign_in2"
+     />
+
+ <View
+     android:id="@+id/rectangle_1"
+     android:layout_width="273dp"
+     android:layout_height="334dp"
+     android:layout_alignParentStart="true"
+     android:layout_alignParentTop="true"
+     android:layout_marginStart="26dp"
+     android:layout_marginTop="130dp"
+     android:background="@drawable/rectangle_1"
+     android:elevation="-1dp" />
 </RelativeLayout>

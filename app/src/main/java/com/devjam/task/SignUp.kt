@@ -9,7 +9,7 @@ import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
-class EmailPasswordActivity : Activity() {
+class SignUp : Activity() {
 
     // [START declare_auth]
     private lateinit var auth: FirebaseAuth
@@ -20,8 +20,7 @@ class EmailPasswordActivity : Activity() {
         super.onCreate(savedInstanceState)
 
         // [START initialize_auth]
-        // Initialize Firebase Auth
-        auth = Firebase.auth
+        // Initialize Firebase Auth        auth = Firebase.auth
         // [END initialize_auth]
     }
 
