@@ -56,7 +56,6 @@
      android:layout_marginTop="149dp"
      android:gravity="top"
      android:text="@string/sign_in"
-     android:fontFamily="ReadexPro-VariableFont_wghtz"
      android:textAppearance="@style/sign_in1" />
 
  <TextView
@@ -66,11 +65,10 @@
      android:layout_alignParentStart="true"
      android:layout_alignParentTop="true"
      android:layout_marginStart="68dp"
-     android:layout_marginTop="240dp"
+     android:layout_marginTop="239dp"
+     android:gravity="top"
      android:text="@string/sign_in"
- android:textAppearance="@style/login_id_ro"
- android:gravity="top"
- />
+     android:textAppearance="@style/login_id_ro" />
 
  <Button
      android:layout_width="@+id/sign_in2"
@@ -80,7 +78,7 @@
  <TextView
 android:id="@+id/forgot_pass"
 android:layout_width="129dp"
-android:layout_height="13dp"
+android:layout_height="17dp"
 android:layout_alignParentStart="true"
 android:layout_marginStart="125dp"
 android:layout_alignParentTop="true"
@@ -100,11 +98,13 @@ android:gravity="top"
      android:gravity="top"
      android:text="@string/password"
      android:textAppearance="@style/password" />
-
+<EditText
+    android:layout_height="20dp"
+    android:layout_marginTop="100dp"/>
  <TextView
      android:id="@+id/sign_up"
      android:layout_width="83dp"
-     android:layout_height="12dp"
+     android:layout_height="14dp"
      android:layout_alignParentStart="true"
      android:layout_alignParentTop="true"
      android:layout_marginStart="212dp"
@@ -115,7 +115,7 @@ android:gravity="top"
      <TextView
      android:id="@+id/dont_have_a"
      android:layout_width="136dp"
-     android:layout_height="9dp"
+     android:layout_height="16dp"
      android:layout_alignParentStart="true"
      android:layout_marginStart="75dp"
      android:layout_alignParentTop="true"
@@ -181,8 +181,8 @@ android:gravity="top"
      android:layout_height="334dp"
      android:layout_alignParentStart="true"
      android:layout_alignParentTop="true"
-     android:layout_marginStart="26dp"
-     android:layout_marginTop="130dp"
+     android:layout_marginStart="28dp"
+     android:layout_marginTop="129dp"
      android:background="@drawable/rectangle_1"
      android:elevation="-1dp" />
 </RelativeLayout>
