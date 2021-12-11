@@ -26,4 +26,10 @@ Forgot password ?
     <string name="roll_number" />
     <string name="mail_id" />
     <string name="mobile_numb" />
+
+    <string name="login_id_ro">
+
+login id/roll number
+</string>
+
 </resources>
