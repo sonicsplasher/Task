@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     tools:context=".Login">
 
  <View
@@ -12,39 +12,21 @@
      android:layout_alignParentStart="true"
      android:layout_alignParentTop="true"
      android:layout_marginTop="-16dp"
-     android:background="@drawable/rectangle_9"
-     />
+     android:background="@drawable/rectangle_9" />
 
 
- <View
-     android:id="@+id/rectangle_3"
-     android:layout_width="243dp"
-     android:layout_height="44dp"
-     android:layout_alignParentStart="true"
-     android:layout_alignParentTop="true"
-     android:layout_marginStart="59dp"
-     android:layout_marginTop="296dp"
-     android:background="@drawable/rectangle_3" />
 
- <View
-     android:id="@+id/rectangle_2"
-     android:layout_width="243dp"
-     android:layout_height="44dp"
-     android:layout_alignParentStart="true"
-     android:layout_alignParentTop="true"
-     android:layout_marginStart="58.5dp"
-     android:layout_marginTop="232.5dp"
-     android:background="@drawable/rectangle_2" />
-
- <View
-     android:id="@+id/rectangle_4"
+ <Button
+     android:id="@+id/submit"
      android:layout_width="238dp"
      android:layout_height="49dp"
      android:layout_alignParentStart="true"
      android:layout_alignParentTop="true"
      android:layout_marginStart="64dp"
      android:layout_marginTop="360dp"
-     android:background="@drawable/rectangle_4" />
+     android:background="@drawable/rectangle_4"
+     android:text="@string/sign_in"/>
+
 
  <TextView
      android:id="@+id/sign_in1"
@@ -58,49 +40,39 @@
      android:text="@string/sign_in"
      android:textAppearance="@style/sign_in1" />
 
- <TextView
-     android:id="@+id/login_id_ro"
-     android:layout_width="211dp"
-     android:layout_height="31dp"
-     android:layout_alignParentStart="true"
-     android:layout_alignParentTop="true"
-     android:layout_marginStart="68dp"
-     android:layout_marginTop="239dp"
-     android:gravity="top"
-     android:text="@string/sign_in"
-     android:textAppearance="@style/login_id_ro" />
-
  <Button
      android:layout_width="@+id/sign_in2"
      android:layout_height="20dp"
      android:layout_marginTop="100dp" />
 
  <TextView
-android:id="@+id/forgot_pass"
-android:layout_width="129dp"
-android:layout_height="17dp"
-android:layout_alignParentStart="true"
-android:layout_marginStart="125dp"
-android:layout_alignParentTop="true"
-android:layout_marginTop="420dp"
-android:text="@string/forgot_pass"
-android:textAppearance="@style/forgot_pass"
-android:gravity="top"
- />
- <TextView
+     android:id="@+id/forgot_pass"
+     android:layout_width="129dp"
+     android:layout_height="17dp"
+     android:layout_alignParentStart="true"
+     android:layout_alignParentTop="true"
+     android:layout_marginStart="125dp"
+     android:layout_marginTop="420dp"
+     android:gravity="top"
+     android:text="@string/forgot_pass"
+     android:textAppearance="@style/forgot_pass" />
+
+ <EditText
      android:id="@+id/password"
      android:layout_width="215dp"
-     android:layout_height="36dp"
+     android:layout_height="wrap_content"
      android:layout_alignParentStart="true"
      android:layout_alignParentTop="true"
      android:layout_marginStart="72dp"
      android:layout_marginTop="298dp"
      android:gravity="top"
+     android:inputType="textWebPassword"
      android:text="@string/password"
-     android:textAppearance="@style/password" />
-<EditText
-    android:layout_height="20dp"
-    android:layout_marginTop="100dp"/>
+     android:textAppearance="@style/password"
+     android:background="@drawable/rectangle_3"
+     android:autofillHints="@string/password" />
+
+
  <TextView
      android:id="@+id/sign_up"
      android:layout_width="83dp"
@@ -112,27 +84,27 @@ android:gravity="top"
      android:gravity="top"
      android:text="@string/sign_up"
      android:textAppearance="@style/sign_up" />
-     <TextView
+
+ <TextView
      android:id="@+id/dont_have_a"
      android:layout_width="136dp"
      android:layout_height="16dp"
      android:layout_alignParentStart="true"
-     android:layout_marginStart="75dp"
      android:layout_alignParentTop="true"
+     android:layout_marginStart="75dp"
      android:layout_marginTop="443dp"
      android:text="@string/dont_have_a"
-     android:textAppearance="@style/dont_have_a"
-      />
-      <View
-      android:id="@+id/ellipse_1"
-      android:layout_width="167.87dp"
-      android:layout_height="158dp"
-      android:layout_alignParentStart="true"
-      android:layout_marginStart="235dp"
-      android:layout_alignParentTop="true"
-      android:layout_marginTop="-54dp"
-      android:background="@drawable/ellipse_1"
-       />
+     android:textAppearance="@style/dont_have_a" />
+
+ <View
+     android:id="@+id/ellipse_1"
+     android:layout_width="167.87dp"
+     android:layout_height="158dp"
+     android:layout_alignParentStart="true"
+     android:layout_alignParentTop="true"
+     android:layout_marginStart="235dp"
+     android:layout_marginTop="-54dp"
+     android:background="@drawable/ellipse_1" />
 
  <View
      android:id="@+id/ellipse_2"
@@ -158,8 +130,9 @@ android:gravity="top"
      android:layout_width="166dp"
      android:layout_height="167dp"
      android:layout_alignParentStart="true"
-     android:layout_alignParentBottom="true"
-     android:layout_marginBottom="-76dp"
+     android:layout_marginTop="549dp"
+     android:layout_marginStart="0dp"
+     
      android:background="@drawable/ellipse_4" />
 
  <TextView
@@ -172,17 +145,29 @@ android:gravity="top"
      android:layout_marginTop="370dp"
      android:gravity="top"
      android:text="@string/sign_in"
-     android:textAppearance="@style/sign_in2"
-     />
+     android:textAppearance="@style/sign_in2" />
 
  <View
      android:id="@+id/rectangle_1"
-     android:layout_width="273dp"
+     android:layout_width="match_parent"
      android:layout_height="334dp"
      android:layout_alignParentStart="true"
      android:layout_alignParentTop="true"
-     android:layout_marginStart="28dp"
+     android:layout_marginStart="27dp"
      android:layout_marginTop="129dp"
      android:background="@drawable/rectangle_1"
      android:elevation="-1dp" />
+
+ <EditText
+     android:id="@+id/editTextUserName"
+     android:ems="10"
+     android:inputType="textPersonName"
+     android:text="@string/sign_in"
+     android:layout_width="243dp"
+     android:layout_height="44dp"
+     android:layout_alignParentStart="true"
+     android:layout_marginStart="58.5dp"
+     android:layout_marginTop="232.5dp"
+     android:background="@drawable/rectangle_2"
+     />
 </RelativeLayout>

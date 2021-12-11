@@ -1,4 +1,4 @@
-
+package com.devjam.task;
 
 
 
@@ -54,6 +54,4 @@ public class UserHelperClass {
     public void setPassword(String password) {
         this.password = password;
     }
-}public class UserHelperClass {
-    
 }
