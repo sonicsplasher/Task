@@ -6,6 +6,8 @@
     android:background="@drawable/android_2"
     android:clipToOutline="true"
     android:elevation="4dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainLoad"
 >
     <ImageView
         android:id="@+id/undraw_thou"
