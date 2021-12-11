@@ -18,10 +18,9 @@ class MainLoad : AppCompatActivity() {
         object : CountDownTimer(3000, 1000) {
             override fun onTick(millisUntilFinished: Long) {}
             override fun onFinish() {
-                //set the new Content of your
-                val context =this.onFinish()
-                val intent = Intent(context, Login::class.java)
-
+                //set the new Content of your activity
+                val intent = Intent(this@MainLoad, Login::class.java)
+                startActivity(intent)
             }
 
     }.start()
