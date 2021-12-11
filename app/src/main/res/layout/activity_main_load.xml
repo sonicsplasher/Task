@@ -7,7 +7,7 @@
     android:clipToOutline="true"
     android:elevation="4dp"
 >
-    <View
+    <ImageView
         android:id="@+id/undraw_thou"
         android:layout_width="432dp"
         android:layout_height="248dp"
@@ -15,7 +15,7 @@
         android:layout_marginLeft="-36dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="161dp"
-        android:background="@drawable/undraw_thou"
+        android:background="@drawable/img"
         />
 
     <View
